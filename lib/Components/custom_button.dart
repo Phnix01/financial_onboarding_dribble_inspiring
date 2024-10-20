@@ -9,7 +9,7 @@ class CustomButton extends StatelessWidget {
     return SizedBox(
       width: double.infinity,
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: onPressed,
         child: Text(
           textDta,
           style: TextStyle(color: Colors.white, fontSize: 20),
