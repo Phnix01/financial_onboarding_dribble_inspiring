@@ -18,6 +18,16 @@ class Homescreen extends StatelessWidget {
                   shape: BoxShape.circle,
                   color: const Color.fromARGB(115, 250, 96, 211)),
             )),
+        Positioned(
+            right: -90,
+            bottom: -50,
+            child: Container(
+              width: 200,
+              height: 150,
+              decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: const Color.fromARGB(96, 244, 255, 96)),
+            )),
         Column(
           children: [
             Stack(
