@@ -23,31 +23,52 @@ class Homescreen extends StatelessWidget {
                   fit: BoxFit.fitWidth,
                 ),
               ),
-              ElevatedButton(onPressed: () {}, child: Text('Skip'))
+              Positioned(
+                top: 40,
+                right: 40,
+                child: ElevatedButton(
+                  onPressed: () {},
+                  child: Text(
+                    'Skip',
+                    style: TextStyle(
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
           const Padding(
-            padding: EdgeInsets.symmetric(vertical: 40, horizontal: 35),
+            padding: EdgeInsets.symmetric(
+              vertical: 40,
+              horizontal: 35,
+            ),
             child: Column(
               children: [
                 Text(
                   textAlign: TextAlign.center,
                   'Unleash Your \n Financial Potential',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
                 SizedBox(
                   height: 15,
                 ),
                 Text(
                   textAlign: TextAlign.center,
-                  'Unleash Your \n Financial Potential',
+                  'Artificial intelligence for smarter \n financial decisions',
+                  style: TextStyle(fontSize: 19, color: Colors.black87),
                 ),
                 SizedBox(
                   height: 15,
                 ),
-                CustomButton(textDta: 'Login')
+                CustomButton(textDta: 'Login'),
               ],
             ),
-          )
+          ),
         ],
       ),
     );
