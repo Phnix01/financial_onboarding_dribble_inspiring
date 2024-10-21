@@ -9,7 +9,7 @@ class Homescreen extends StatelessWidget {
   Widget build(BuildContext context) {
     void premiereFunction() {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => Loginscreen()));
+          context, MaterialPageRoute(builder: (context) => LoginScreen()));
     }
 
     return Scaffold(
@@ -45,8 +45,8 @@ class Homescreen extends StatelessWidget {
                     ),
                   ),
                   Positioned(
-                    top: 40,
-                    right: 40,
+                    top: 300,
+                    right: 100,
                     child: ElevatedButton(
                       onPressed: () {
                         // Action pour Skip

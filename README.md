@@ -2,4 +2,6 @@
 # financial_onboarding_dribble_inspiring
 
 A new Flutter project.
-je me suis lancé le défi de réaliser cette plateforme avec mes connaissances acquis jusque là 
+je me suis lancé le défi de réaliser cette plateforme avec mes connaissances acquises jusque là 
+
+tout en profondissant mes connaissances de certaines widgets et en découvrant le mode fonctionnement d'utilisation d'autres widgets
